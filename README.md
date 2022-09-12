@@ -1,5 +1,4 @@
-# TBS Robotics Remote Access to Robot
-TBS Robotics Remote Access to Robot
+# TBS Robotics Robot Network Setup and Remote Access
 ## Fix remote host's IP address
 - Usually a computer joins network through wireless and DHCP (Dynamic Host Configuration Protocol) from wireless access point and router.
 - While mostly fixed, the IP address of the remote computer can change by dynamic IP address assignment
