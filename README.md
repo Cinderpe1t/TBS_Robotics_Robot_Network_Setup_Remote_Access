@@ -10,6 +10,7 @@
 - `rm`: remote file or directory. Command terminal does not have trash back up. Please be careful when you use this command
 - `chmod`: change permision of a file or directory
 - `ps`: list running processes
+- `kill`: send termination signal to process(es)
 ## Fix remote host's IP address
 - Usually a computer joins network through wireless and DHCP (Dynamic Host Configuration Protocol) from wireless access point and router.
 - While mostly fixed, the IP address of the remote computer can change by dynamic IP address assignment
