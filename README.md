@@ -1,4 +1,15 @@
 # TBS Robotics Robot Network Setup and Remote Access
+## Basic linux commandes to know 
+- Similar to MacOSX
+- `man`: display user manual for a command. Try `man ls` or `man cd`
+- `ls`: list files in directory
+- `pwd`: present working directory
+- `cd`: change directory
+- `cp`: copy file or directory
+- `mv`: move file or directory
+- `rm`: remote file or directory. Command terminal does not have trash back up. Please be careful when you use this command
+- `chmod`: change permision of a file or directory
+- `ps`: list running processes
 ## Fix remote host's IP address
 - Usually a computer joins network through wireless and DHCP (Dynamic Host Configuration Protocol) from wireless access point and router.
 - While mostly fixed, the IP address of the remote computer can change by dynamic IP address assignment
@@ -17,9 +28,7 @@ lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
 	inet6 ::1 prefixlen 128 
 	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
 	nd6 options=201<PERFORMNUD,DAD>
-
 ...
-
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=6463<RXCSUM,TXCSUM,TSO4,TSO6,CHANNEL_IO,PARTIAL_CSUM,ZEROINVERT_CSUM>
 	ether 3c:22:fb:ab:76:a5 
