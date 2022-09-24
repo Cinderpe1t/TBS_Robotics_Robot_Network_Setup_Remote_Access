@@ -48,7 +48,7 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 - Router needs reboot for the static IP address to be effective
 - Remote computer needs reboot to rejoin the wireless network
 ## Graphic User Interface (GUI) remote access
-- Virtual Network Computing (VNC) allows remote access through a windows
+- Virtual Network Computing (VNC) allows remote access through a Windows
 - Similar to Windows Remote Desktop or Apple Remote Desktop
 - It mirrors display at the remote computer
 - The remote computer has only one screen. The local monitor and remote screen show the exact same screen.
